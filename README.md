@@ -90,7 +90,7 @@ python eval/evaluation.py
 ---
 
 ## 📝 Resume Link  
-[Insert your resume link here]  
+[https://drive.google.com/file/d/1jJMYRi6YZUcPpKDHFdCaC-fl8Ck5aApf/view?usp=drivesdk]  
 
 ---
 
