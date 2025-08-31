@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What role does Qdrant play in this app?",
+    "answer": "Qdrant stores and retrieves vector embeddings for semantic search.",
+    "gold_source_ids": ["doc1"]
+  },
+  {
+    "question": "How are inline citations rendered?",
+    "answer": "The model outputs numeric brackets like [1], [2] tied to retrieved chunks.",
+    "gold_source_ids": ["doc2"]
+  },
+  {
+    "question": "Which model generates the final answers?",
+    "answer": "Gemini is used to generate answers grounded in retrieved context.",
+    "gold_source_ids": ["doc3"]
+  },
+  {
+    "question": "What step improves diversity before reranking?",
+    "answer": "MMR is used to select a diverse subset of candidates.",
+    "gold_source_ids": ["doc4"]
+  },
+  {
+    "question": "Which service is used for reranking?",
+    "answer": "Cohere is used to rerank candidate chunks.",
+    "gold_source_ids": ["doc5"]
+  }
+]

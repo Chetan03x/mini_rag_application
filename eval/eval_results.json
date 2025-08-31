@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "n": 3,
+    "success_rate": 0.667,
+    "avg_recall": 0.667,
+    "real_model_calls": 1,
+    "mock_calls": 2,
+    "timestamp": "2025-08-31T16:23:42.518989"
+  },
+  "results": [
+    {
+      "question": "What role does Qdrant play in this app?",
+      "gold": "Qdrant stores and retrieves vector embeddings for semantic search.",
+      "answer": "Please provide me with the sources describing the app. I need that information to answer your question about Qdrant's role.",
+      "success": false,
+      "recall": 0.0
+    },
+    {
+      "question": "How are inline citations rendered?",
+      "gold": "The model outputs numeric brackets like [1], [2] tied to retrieved chunks.",
+      "answer": "The model outputs numeric brackets like [1], [2] tied to retrieved chunks.",
+      "success": true,
+      "recall": 1.0
+    },
+    {
+      "question": "Which model generates the final answers?",
+      "gold": "Gemini is used to generate answers grounded in retrieved context.",
+      "answer": "Gemini is used to generate answers grounded in retrieved context.",
+      "success": true,
+      "recall": 1.0
+    }
+  ]
+}
