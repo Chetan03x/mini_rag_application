@@ -5,12 +5,12 @@ A lightweight Retrieval-Augmented Generation (RAG) system using **Qdrant** for v
 ---
 
 ## 🚀 Live URL(s)  
-- [Your deployed app link here]  
+- [(https://minirag.streamlit.app/)]  
 
 ---
 
 ## 💻 Public Repository  
-- GitHub Repo: [Insert Repo Link]  
+- GitHub Repo: [https://github.com/Chetan03x/mini_rag_application]  
 
 ---
 
@@ -18,7 +18,7 @@ A lightweight Retrieval-Augmented Generation (RAG) system using **Qdrant** for v
 
 ### 1. Clone the repo  
 ```bash
-git clone https://github.com/your-username/mini_rag_app.git
+git clone https://github.com/chetan03x/mini_rag_app.git
 cd mini_rag_app
 ```
 
@@ -42,14 +42,10 @@ QDRANT_URL=http://localhost:6333
 QDRANT_API_KEY=your_qdrant_api_key_here
 ```
 
-### 5. Run backend  
-```bash
-uvicorn backend.main:app --reload
-```
 
-### 6. Run frontend (Streamlit or FastAPI UI)  
+### 5. Run frontend (Streamlit or FastAPI UI)  
 ```bash
-streamlit run frontend/app.py
+streamlit run backend/app.py
 ```
 
 ---
